@@ -1,0 +1,111 @@
+body {
+  background-color: #f0f0f0; /* Couleur de fond grise, remplacez par la couleur de votre choix */
+  margin: 0; /* Supprime les marges par défaut du corps de la page */
+  padding: 0; /* Supprime les rembourrages par défaut du corps de la page */
+}
+.btn-edit-delete{
+	padding: 2px;
+	margin: 0px;
+}
+
+h1{
+	font-size:50px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.oeil{
+    position: absolute;
+    right: 14px;
+    top: 26px;
+	cursor: pointer;
+}
+
+.etoile{
+	font-size: 25px;
+    color: red;
+    position: absolute;
+    right: -3px;
+    top: 3px;
+}
+
+.panel-heading {
+  font-size: 20px; /* Adjust the size as needed */
+}
+/* .panel .panel-heading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  font-weight: 200;
+} */
+.panel-body{
+  border: 5px solid #ccc;
+  padding: 15px; /* Ajoute un espace intérieur pour éviter que le contenu ne touche la bordure */
+  border-radius: 0px; 
+  margin: 20px;
+  font-size: 20px;
+}
+.form-group {
+  margin-bottom: 20px; /* Ajoute de l'espace entre les éléments du formulaire */
+  font-size: 16px;
+}
+label[for="login"] {
+  font-size: 25px; /* Ajustez la taille du texte du label (E-mail) selon vos préférences */
+}
+label[for="pwd"] {
+  font-size: 25px; /* Ajustez la taille du texte du label (E-mail) selon vos préférences */
+}
+.form-control {
+  width: 100%; /* Fait en sorte que les champs de formulaire occupent toute la largeur disponible */
+  font-size: 16px;
+}
+
+/*****   Tableau de bord ***********/
+
+
+.tableau-stat .stat{
+    padding: 20px;
+    font-size: 20px;
+    color:#FFF;
+    border-radius: 20px;
+    position:relative;
+    overflow: hidden;
+}
+
+.tableau-stat .stat span{
+    position: absolute;
+    font-size: 80px;
+    top: 55px;
+    left: 15px;
+}
+
+.tableau-stat .stat .effectif{
+    float: right;
+}
+
+.tableau-stat .stat .nbr{
+    font-size: 60px;
+}
+
+.tableau-stat .stat12{
+    background: #3498db;
+}
+.tableau-stat .stat1{
+    background: #c0392b;
+}
+
+.tableau-stat .stat2{
+    background: #e67e22;
+}
+
+.my-row{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
